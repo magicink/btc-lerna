@@ -4,7 +4,7 @@
   "description": "Generates a Prettier configuration.",
   "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
@@ -20,5 +20,8 @@
     "yeoman-generator": "^5.3.0",
     "yeoman-test": "^6.2.0"
   },
-  "private": true
+  "private": true,
+  "files": [
+    "app/"
+  ]
 }

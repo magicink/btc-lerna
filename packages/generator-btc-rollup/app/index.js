@@ -18,6 +18,14 @@ module.exports = class extends Generator {
     ]
 
     await this.addDevDependencies(devDependencies)
+
+    const projectSettings = {
+      scripts: {
+        build: 'rollup -c ./rollup.config.js'
+      }
+    }
+
+    this.fs.extendJSON(this.destinationPath('package.json'), projectSettings)
   }
 
   initializing() {

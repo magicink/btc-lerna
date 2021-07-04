@@ -1,27 +1,20 @@
 {
-  "name": "generator-btc-jest",
+  "name": "generator-btc-react",
   "version": "1.0.0",
-  "description": "Generates Jest configurations and mock files.",
+  "description": "Generates a React component.",
   "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/magicink/btc-lerna.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
   "private": true,
   "devDependencies": {
     "generator-btc-babel": "file:../generator-btc-babel",
+    "generator-btc-jest": "file:../generator-btc-jest",
+    "generator-btc-prettier": "file:../generator-btc-prettier",
+    "generator-btc-rollup": "file:../generator-btc-rollup",
     "yeoman-generator": "^5.3.0",
     "yeoman-test": "^6.2.0"
-  },
-  "files": [
-    "app/"
-  ]
+  }
 }

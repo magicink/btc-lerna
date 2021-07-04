@@ -22,6 +22,7 @@ module.exports = class extends Generator {
       '@babel/plugin-transform-runtime',
       '@babel/plugin-transform-template-literals',
       '@babel/preset-env',
+      '@babel/preset-flow',
       '@babel/preset-react',
       '@babel/runtime',
       'core-js',
@@ -37,6 +38,7 @@ module.exports = class extends Generator {
     const babelSettings = {
       plugins: babelPlugins,
       presets: [
+        '@babel/preset-flow',
         [
           '@babel/preset-env',
           {
