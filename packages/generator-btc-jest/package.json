@@ -1,7 +1,7 @@
 {
-  "name": "generator-btc-prettier",
+  "name": "generator-btc-jest",
   "version": "1.0.0",
-  "description": "Generates a Prettier configuration.",
+  "description": "Generates Jest configurations and mock files.",
   "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "license": "ISC",
@@ -15,10 +15,10 @@
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
+  "private": true,
   "devDependencies": {
-    "btc-prettier": "file:../btc-prettier",
+    "generator-btc-babel": "file:../generator-btc-babel",
     "yeoman-generator": "^5.3.0",
     "yeoman-test": "^6.2.0"
-  },
-  "private": true
+  }
 }

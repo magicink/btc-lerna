@@ -23,7 +23,9 @@ module.exports = class extends Generator {
       '@babel/plugin-transform-template-literals',
       '@babel/preset-env',
       '@babel/preset-react',
-      '@babel/runtime'
+      '@babel/runtime',
+      'core-js',
+      'regenerator-runtime'
     ]
 
     const babelPlugins = devDependencies.filter(p =>

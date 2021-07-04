@@ -1,11 +1,18 @@
 # `generator-btc-rollup`
 
-> TODO: description
+> A custom RollupJS configuration.
 
 ## Usage
 
 ```
-const generatorBtcRollup = require('generator-btc-rollup');
+// app/index.js
 
-// TODO: DEMONSTRATE API
+module.exports = class extends Generator {
+  initializing() {
+    this.composeWith({
+      Generator: require('generator-btc-jest/app'),
+      path: require.resolve('generator-btc-jest/app')
+    })
+  }
+}
 ```

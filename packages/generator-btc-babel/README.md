@@ -1,11 +1,18 @@
 # `generator-btc-babel`
 
-> TODO: description
+> Generates a Babel configuration file and dependencies.
 
 ## Usage
 
 ```
-const generatorBtcBabel = require('generator-btc-babel');
+// app/index.js
 
-// TODO: DEMONSTRATE API
+module.exports = class extends Generator {
+  initializing() {
+    this.composeWith({
+      Generator: require('generator-btc-babel/app'),
+      path: require.resolve('generator-btc-babel/app')
+    })
+  }
+}
 ```

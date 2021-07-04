@@ -20,7 +20,7 @@ module.exports = class extends Generator {
     await this.addDevDependencies(devDependencies)
   }
 
-  initializing () {
+  initializing() {
     this.composeWith({
       Generator: require('generator-btc-babel/app'),
       path: require.resolve('generator-btc-babel/app')

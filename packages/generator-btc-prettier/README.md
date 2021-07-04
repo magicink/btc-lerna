@@ -1,11 +1,18 @@
 # `generator-btc-prettier`
 
-> TODO: description
+> Generates a Prettier configuration.
 
 ## Usage
 
 ```
-const generatorBtcPrettier = require('generator-btc-prettier');
+// app/index.js
 
-// TODO: DEMONSTRATE API
+module.exports = class extends Generator {
+  initializing() {
+    this.composeWith({
+      Generator: require('generator-btc-prettier/app'),
+      path: require.resolve('generator-btc-prettier/app')
+    })
+  }
+}
 ```

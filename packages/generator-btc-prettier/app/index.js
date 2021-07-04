@@ -1,4 +1,5 @@
 const Generator = require('yeoman-generator')
+const prettier = require('btc-prettier')
 
 module.exports = class extends Generator {
   constructor(args, opts, features) {
@@ -6,21 +7,11 @@ module.exports = class extends Generator {
   }
 
   async writing() {
-    const devDependencies = [
-      'prettier'
-    ]
+    const devDependencies = ['prettier']
     await this.addDevDependencies(devDependencies)
 
     const projectSettings = {
-      prettier: {
-        "arrowParens": "avoid",
-        "bracketSpacing": true,
-        "jsxSingleQuote": true,
-        "semi": false,
-        "singleQuote": true,
-        "tabWidth": 2,
-        "trailingComma": "none"
-      },
+      prettier,
       scripts: {
         format: 'prettier --write "**/*.{js,jsx,json,md}"'
       }
