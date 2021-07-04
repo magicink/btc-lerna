@@ -1,0 +1,14 @@
+{
+  "name": "generator-btc-rollup",
+  "version": "1.0.0",
+  "description": "A custom RollupJS configuration.",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "generator-btc-babel": "file:../generator-btc-babel",
+    "yeoman-generator": "^5.3.0"
+  }
+}
