@@ -1,0 +1,18 @@
+{
+  "name": "generator-btc-babel",
+  "version": "1.0.0",
+  "description": "A custom Yeoman Babel generator.",
+  "homepage": "",
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "app/index.js",
+  "files": [
+    "app/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "yeoman-generator": "^5.3.0"
+  }
+}
