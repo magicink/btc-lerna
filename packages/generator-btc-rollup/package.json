@@ -1,9 +1,10 @@
 {
   "name": "generator-btc-rollup",
   "version": "1.0.0",
+  "private": true,
   "description": "A custom RollupJS configuration.",
-  "author": "Brandon Tom <magicink@gmail.com>",
   "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },

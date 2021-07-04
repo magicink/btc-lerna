@@ -1,0 +1,23 @@
+{
+  "name": "generator-btc-prettier",
+  "version": "1.0.0",
+  "description": "A custom prettier configuration.",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "devDependencies": {
+    "yeoman-generator": "^5.3.0",
+    "yeoman-test": "^6.2.0"
+  },
+  "private": true
+}

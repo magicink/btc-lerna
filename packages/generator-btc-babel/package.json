@@ -1,6 +1,7 @@
 {
   "name": "generator-btc-babel",
   "version": "1.0.0",
+  "private": true,
   "description": "A custom Yeoman Babel generator.",
   "homepage": "",
   "license": "ISC",

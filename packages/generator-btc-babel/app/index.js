@@ -3,7 +3,6 @@ const Generator = require('yeoman-generator')
 module.exports = class extends Generator {
   constructor(args, opts, features) {
     super(args, opts, features)
-    this.project = { ...this.options }
   }
 
   async writing() {
@@ -48,11 +47,5 @@ module.exports = class extends Generator {
     }
 
     this.fs.extendJSON(this.destinationPath('.babelrc.json'), babelSettings)
-
-    const projectSettings = {
-      name: this.project.name
-    }
-
-    this.fs.extendJSON(this.destinationPath('package.json'), projectSettings)
   }
 }
