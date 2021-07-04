@@ -5,7 +5,7 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const path = require('path')
 const { terser } = require('rollup-plugin-terser')
 
-const external = [/^@babel\/runtime/, /^react.*/]
+const external = [/@babel\/runtime/, 'react', 'react-dom']
 
 module.exports = [
   {

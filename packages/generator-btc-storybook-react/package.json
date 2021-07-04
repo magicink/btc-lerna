@@ -1,0 +1,25 @@
+{
+  "name": "generator-btc-storybook-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generates a React component with Storybook.",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "app/index",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "generator-btc-react": "file:../generator-btc-react",
+    "yeoman-generator": "^5.3.0",
+    "yeoman-test": "^6.2.0"
+  }
+}

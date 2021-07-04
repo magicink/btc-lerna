@@ -1,19 +1,24 @@
 {
   "name": "generator-btc-react",
   "version": "1.0.0",
+  "private": true,
   "description": "Generates a React component.",
-  "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
-  "private": true,
-  "devDependencies": {
+  "license": "UNLICENSED",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "files": [
+    "app/"
+  ],
+  "dependencies": {
     "generator-btc-babel": "file:../generator-btc-babel",
     "generator-btc-jest": "file:../generator-btc-jest",
     "generator-btc-prettier": "file:../generator-btc-prettier",
-    "generator-btc-rollup": "file:../generator-btc-rollup",
+    "generator-btc-rollup": "file:../generator-btc-rollup"
+  },
+  "devDependencies": {
     "yeoman-generator": "^5.3.0",
     "yeoman-test": "^6.2.0"
   }

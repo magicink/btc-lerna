@@ -14,7 +14,8 @@ module.exports = class extends Generator {
       '@rollup/plugin-node-resolve',
       'rollup',
       'rollup-plugin-sass',
-      'rollup-plugin-terser'
+      'rollup-plugin-terser',
+      'sass'
     ]
 
     await this.addDevDependencies(devDependencies)

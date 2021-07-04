@@ -3,6 +3,7 @@ const Generator = require('yeoman-generator')
 module.exports = class extends Generator {
   constructor(args, opts, features) {
     super(args, opts, features)
+    this.option('name', { type: String })
   }
 
   async writing() {
