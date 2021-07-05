@@ -9,6 +9,8 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath(), this.destinationPath())
 
     const devDependencies = [
+      'autoprefixer@9',
+      'postcss',
       '@rollup/plugin-babel',
       '@rollup/plugin-commonjs',
       '@rollup/plugin-node-resolve',
@@ -34,5 +36,10 @@ module.exports = class extends Generator {
       Generator: require('generator-btc-babel/app'),
       path: require.resolve('generator-btc-babel/app')
     })
+  }
+
+
+  end() {
+    this.spawnCommand('npm', ['run', 'build'])
   }
 }

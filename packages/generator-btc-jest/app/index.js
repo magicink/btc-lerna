@@ -42,4 +42,8 @@ module.exports = class extends Generator {
       path: require.resolve('generator-btc-babel/app')
     })
   }
+
+  end () {
+    this.spawnCommand('npm', ['test'])
+  }
 }

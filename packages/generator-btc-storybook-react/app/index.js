@@ -20,10 +20,10 @@ module.exports = class extends Generator {
       '@storybook/addon-links',
       '@storybook/addon-storysource',
       '@storybook/addon-viewport',
-      '@storybook/preset-scss',
+      'babel-loader',
       'css-loader',
-      'sass-loader',
-      'style-loader'
+      'sass-loader@10',
+      'style-loader@2'
     ]
 
     await this.addDevDependencies(devDependencies)
@@ -45,9 +45,5 @@ module.exports = class extends Generator {
       Generator: require('generator-btc-react/app'),
       path: require.resolve('generator-btc-react/app')
     })
-  }
-
-  end () {
-    this.spawnCommand('npx', ['sort-package-json'])
   }
 }
