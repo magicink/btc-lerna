@@ -24,7 +24,7 @@ module.exports = class extends Generator {
       '@storybook/addon-storysource',
       '@storybook/addon-viewport',
       'babel-loader',
-      'css-loader',
+      'css-loader@5',
       'sass-loader@10',
       'style-loader@2'
     ]
