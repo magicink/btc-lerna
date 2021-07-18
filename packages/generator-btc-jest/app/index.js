@@ -43,7 +43,7 @@ module.exports = class extends Generator {
     })
   }
 
-  end () {
+  end() {
     this.spawnCommand('npm', ['test'])
   }
 }

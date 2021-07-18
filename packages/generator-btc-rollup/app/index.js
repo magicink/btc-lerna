@@ -38,7 +38,6 @@ module.exports = class extends Generator {
     })
   }
 
-
   end() {
     this.spawnCommand('npm', ['run', 'build'])
   }

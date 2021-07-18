@@ -8,7 +8,10 @@ module.exports = class extends Generator {
 
   async writing() {
     this.fs.copy(this.templatePath(), this.destinationPath())
-    this.fs.copy(this.templatePath('.storybook'), this.destinationPath('.storybook'))
+    this.fs.copy(
+      this.templatePath('.storybook'),
+      this.destinationPath('.storybook')
+    )
 
     const devDependencies = [
       '@storybook/cli',

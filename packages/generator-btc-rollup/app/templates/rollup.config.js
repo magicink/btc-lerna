@@ -32,9 +32,10 @@ module.exports = [
       commonjs(),
       sass({
         insert: true,
-        processor: css => postcss([autoprefixer])
-          .process(css, {from: undefined})
-          .then(result => result.css)
+        processor: css =>
+          postcss([autoprefixer])
+            .process(css, { from: undefined })
+            .then(result => result.css)
       }),
       terser()
     ]

@@ -13,7 +13,8 @@ module.exports = class extends Generator {
     const projectSettings = {
       prettier,
       scripts: {
-        format: 'npx sort-package-json && prettier --write "**/*.{js,jsx,json,md}"'
+        format:
+          'npx sort-package-json && prettier --write "**/*.{js,jsx,json,md}"'
       }
     }
     this.fs.extendJSON(this.destinationPath('package.json'), projectSettings)
@@ -24,7 +25,7 @@ module.exports = class extends Generator {
     )
   }
 
-  end () {
+  end() {
     this.spawnCommand('npm', ['run', 'format'])
   }
 }

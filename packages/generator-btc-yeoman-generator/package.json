@@ -1,22 +1,35 @@
 {
   "name": "generator-btc-yeoman-generator",
   "version": "1.0.0",
+  "private": true,
   "description": "Generates the scaffolding of a Yeoman generator.",
-  "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "ISC",
-  "main": "app/index.js",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
   },
-  "bugs": {
-    "url": "https://github.com/magicink/btc-lerna/issues"
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxSingleQuote": true,
+    "quoteProps": "as-needed",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
   },
   "devDependencies": {
+    "prettier": "2.3.2",
     "yeoman-generator": "^5.4.0"
   }
 }

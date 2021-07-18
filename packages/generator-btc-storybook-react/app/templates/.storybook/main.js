@@ -9,20 +9,20 @@ module.exports = {
     '@storybook/addon-storysource',
     '@storybook/addon-viewport'
   ],
-  stories: [
-    '../src/**/story.js'
-  ],
+  stories: ['../src/**/story.js'],
   webpackFinal: {
     module: {
       rules: [
         {
           test: /\.jsx?$/,
-          use: [{
-            loader: 'babel-loader',
-            options: {
-              ...babelConfig
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                ...babelConfig
+              }
             }
-          }]
+          ]
         },
         {
           test: /\.s?css$/,
