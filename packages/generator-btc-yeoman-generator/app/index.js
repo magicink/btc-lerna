@@ -12,4 +12,10 @@ module.exports = class extends Generator {
     const dependencies = ['yeoman-generator']
     await this.addDependencies(dependencies)
   }
+  initializing () {
+    this.composeWith({
+      Generator: require('generator-btc-prettier'),
+      path: require.resolve('generator-btc-prettier')
+    })
+  }
 }
