@@ -26,20 +26,20 @@ module.exports = class extends Generator {
 
   initializing() {
     this.composeWith({
-      Generator: require('generator-btc-babel/app'),
-      path: require.resolve('generator-btc-babel/app')
+      Generator: require('generator-btc-babel'),
+      path: require.resolve('generator-btc-babel')
     })
     this.composeWith({
-      Generator: require('generator-btc-prettier/app'),
-      path: require.resolve('generator-btc-prettier/app')
+      Generator: require('generator-btc-prettier'),
+      path: require.resolve('generator-btc-prettier')
     })
     this.composeWith({
-      Generator: require('generator-btc-jest/app'),
-      path: require.resolve('generator-btc-jest/app')
+      Generator: require('generator-btc-jest'),
+      path: require.resolve('generator-btc-jest')
     })
     this.composeWith({
-      Generator: require('generator-btc-rollup/app'),
-      path: require.resolve('generator-btc-rollup/app')
+      Generator: require('generator-btc-rollup'),
+      path: require.resolve('generator-btc-rollup')
     })
   }
 }

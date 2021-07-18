@@ -45,8 +45,8 @@ module.exports = class extends Generator {
 
   initializing() {
     this.composeWith({
-      Generator: require('generator-btc-react/app'),
-      path: require.resolve('generator-btc-react/app')
+      Generator: require('generator-btc-react'),
+      path: require.resolve('generator-btc-react')
     })
   }
 }
