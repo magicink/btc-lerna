@@ -1,2 +1,8 @@
+# IDE configs
 .idea/
+
+# Dependencies
 node_modules/
+
+# Logs
+lerna-debug.log
