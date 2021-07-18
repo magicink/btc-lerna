@@ -36,6 +36,8 @@ module.exports = class extends Generator {
     this.composeWith({
       Generator: require('generator-btc-jest'),
       path: require.resolve('generator-btc-jest')
+    }, {
+      'skip-template': true
     })
     this.composeWith({
       Generator: require('generator-btc-rollup'),

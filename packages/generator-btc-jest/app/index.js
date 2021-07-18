@@ -3,10 +3,15 @@ const Generator = require('yeoman-generator')
 module.exports = class extends Generator {
   constructor(args, opts, features) {
     super(args, opts, features)
+    this.option('skip-template',{type: Boolean})
   }
 
   async writing() {
-    this.fs.copy(this.templatePath(), this.destinationPath())
+    if (!this.option['skip-template']) {
+      this.fs.copy(this.templatePath(), this.destinationPath())
+    } else {
+      this.fs.copy(this.templatePath('__mocks__'), this.destinationPath('__mocks__'))
+    }
 
     const devDependencies = [
       '@testing-library/jest-dom',

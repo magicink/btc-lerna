@@ -9,7 +9,23 @@
   "files": [
     "app/"
   ],
+  "scripts": {
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxSingleQuote": true,
+    "quoteProps": "as-needed",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
   "dependencies": {
     "yeoman-generator": "^5.3.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
   }
 }
