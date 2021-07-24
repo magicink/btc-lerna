@@ -8,5 +8,5 @@ export default {
 
 const Template = args => <HelloWorld {...args} />
 
-export const Primary = Template.bind({})
-Primary.args = {}
+export const Preview = Template.bind({})
+Preview.args = {}
