@@ -10,7 +10,7 @@ module.exports = class extends Generator {
     await this.addDependencies([])
     await this.addDevDependencies([])
   }
-  initializing () {
+  initializing() {
     this.composeWith({
       Generator: require('generator-btc-prettier'),
       path: require.resolve('generator-btc-prettier')

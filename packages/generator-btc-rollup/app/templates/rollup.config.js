@@ -35,7 +35,8 @@ module.exports = [
         processor: css =>
           postcss([autoprefixer])
             .process(css, { from: undefined })
-            .then(result => result.css)
+            .then(result => result.css),
+        runtime: require('sass')
       }),
       terser()
     ]

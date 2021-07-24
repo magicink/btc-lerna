@@ -4,10 +4,13 @@ module.exports = class extends Generator {
   constructor(args, opts, features) {
     super(args, opts, features)
     this.option('name', { type: String })
+    this.option('skip-template', { type: Boolean })
   }
 
   async writing() {
-    this.fs.copy(this.templatePath(), this.destinationPath())
+    if (!this.options['skip-template']) {
+      this.fs.copy(this.templatePath(), this.destinationPath())
+    }
 
     const devDependencies = [
       '@testing-library/react',
@@ -33,12 +36,15 @@ module.exports = class extends Generator {
       Generator: require('generator-btc-prettier'),
       path: require.resolve('generator-btc-prettier')
     })
-    this.composeWith({
-      Generator: require('generator-btc-jest'),
-      path: require.resolve('generator-btc-jest')
-    }, {
-      'skip-template': true
-    })
+    this.composeWith(
+      {
+        Generator: require('generator-btc-jest'),
+        path: require.resolve('generator-btc-jest')
+      },
+      {
+        'skip-template': true
+      }
+    )
     this.composeWith({
       Generator: require('generator-btc-rollup'),
       path: require.resolve('generator-btc-rollup')

@@ -10,8 +10,8 @@
 module.exports = class extends Generator {
   initializing() {
     this.composeWith({
-      Generator: require('generator-btc-jest/app'),
-      path: require.resolve('generator-btc-jest/app')
+      Generator: require('generator-btc-jest'),
+      path: require.resolve('generator-btc-jest')
     })
   }
 }
