@@ -18,8 +18,5 @@
     "btc-prettier": "file:packages/btc-prettier",
     "lerna": "^4.0.0",
     "prettier": "2.3.2"
-  },
-  "dependencies": {
-    "yeoman-generator": "^5.4.0"
   }
 }
