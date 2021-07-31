@@ -14,8 +14,7 @@
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "app/index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "generator-btc-react": "file:../generator-btc-react",
     "yeoman-generator": "^5.3.0",

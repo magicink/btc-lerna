@@ -2,11 +2,7 @@
   "version": "1.0.0",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        ".gitignore",
-        "*.json",
-        "*.md"
-      ]
+      "ignoreChanges": [".gitignore", "*.json", "*.md"]
     }
   },
   "npmClient": "npm",

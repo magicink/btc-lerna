@@ -44,11 +44,14 @@ module.exports = class extends Generator {
   }
 
   initializing() {
-    this.composeWith({
-      Generator: require('generator-btc-react'),
-      path: require.resolve('generator-btc-react')
-    }, {
-      name: this.options.name
-    })
+    this.composeWith(
+      {
+        Generator: require('generator-btc-react'),
+        path: require.resolve('generator-btc-react')
+      },
+      {
+        name: this.options.name
+      }
+    )
   }
 }
