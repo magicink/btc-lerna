@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "generator-btc-babel": "file:../generator-btc-babel",
+    "generator-btc-gitignore": "file:../generator-btc-gitignore",
     "generator-btc-prettier": "file:../generator-btc-prettier",
     "prettier": "2.3.2"
   }
