@@ -4,16 +4,12 @@ module.exports = class extends Generator {
     super(args, opts, features)
   }
   async writing() {
-    // await this.fs.copy(this.templatePath(), this.destinationPath())
+    await this.fs.copy(this.templatePath('.gitignore'), this.destinationPath('.gitignore'))
     const projectSettings = {}
     this.fs.extendJSON(this.destinationPath('package.json'), projectSettings)
     await this.addDependencies([])
     await this.addDevDependencies([])
   }
   initializing() {
-    this.composeWith({
-      Generator: require('generator-btc-prettier'),
-      path: require.resolve('generator-btc-prettier')
-    })
   }
 }
