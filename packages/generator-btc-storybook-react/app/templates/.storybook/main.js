@@ -9,7 +9,7 @@ module.exports = {
     '@storybook/addon-storysource',
     '@storybook/addon-viewport'
   ],
-  stories: ['../src/**/*.stories.@(js|jsx)'],
+  stories: ['../src/**/*.story.js'],
   webpackFinal: {
     module: {
       rules: [

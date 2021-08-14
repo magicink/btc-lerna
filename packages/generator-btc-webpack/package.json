@@ -1,0 +1,37 @@
+{
+  "name": "generator-btc-webpack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "> TODO: description",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "scripts": {
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxSingleQuote": true,
+    "quoteProps": "as-needed",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "yeoman-generator": "5.4.0"
+  },
+  "devDependencies": {
+    "generator-btc-babel": "file:../generator-btc-babel",
+    "generator-btc-prettier": "file:../generator-btc-prettier",
+    "prettier": "2.3.2"
+  }
+}

@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "command": {
+    "bootstrap": {
+      "hoist": ["@babel/**"]
+    },
     "publish": {
       "ignoreChanges": [".gitignore", "*.json", "*.md"]
     }
