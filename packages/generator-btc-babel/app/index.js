@@ -7,26 +7,7 @@ module.exports = class extends Generator {
 
   async writing() {
     const devDependencies = [
-      '@babel/cli',
-      '@babel/core',
-      '@babel/plugin-proposal-nullish-coalescing-operator',
-      '@babel/plugin-proposal-optional-chaining',
-      '@babel/plugin-syntax-dynamic-import',
-      '@babel/plugin-transform-arrow-functions',
-      '@babel/plugin-transform-block-scoping',
-      '@babel/plugin-transform-destructuring',
-      '@babel/plugin-transform-modules-commonjs',
-      '@babel/plugin-transform-parameters',
-      '@babel/plugin-transform-react-jsx',
-      '@babel/plugin-transform-regenerator',
-      '@babel/plugin-transform-runtime',
-      '@babel/plugin-transform-template-literals',
-      '@babel/preset-env',
-      '@babel/preset-flow',
-      '@babel/preset-react',
-      '@babel/runtime',
-      'core-js',
-      'regenerator-runtime'
+      '../btc-core'
     ]
 
     const babelPlugins = devDependencies.filter(p =>
