@@ -15,7 +15,10 @@
     "trailingComma": "none"
   },
   "dependencies": {
-    "lerna": "^4.0.0"
+    "cross-env": "^7.0.3",
+    "jest": "^27.1.0",
+    "lerna": "^4.0.0",
+    "rollup": "^2.56.3"
   },
   "devDependencies": {
     "btc-prettier": "file:packages/btc-prettier",
