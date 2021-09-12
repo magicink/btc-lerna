@@ -13,10 +13,7 @@ module.exports = class extends Generator {
     }
 
     const devDependencies = [
-      '@testing-library/react',
-      '@testing-library/react-hooks',
-      'react',
-      'react-dom'
+      '../btc-react'
     ]
 
     await this.addDevDependencies(devDependencies)
