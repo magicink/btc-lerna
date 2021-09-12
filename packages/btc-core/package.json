@@ -13,7 +13,6 @@
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "prettier": {
