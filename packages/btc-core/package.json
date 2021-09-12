@@ -2,7 +2,6 @@
   "name": "btc-core",
   "version": "1.0.0",
   "private": true,
-  "description": "> TODO: description",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
