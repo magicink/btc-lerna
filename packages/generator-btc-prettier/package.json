@@ -18,23 +18,15 @@
     "app/"
   ],
   "scripts": {
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,css,scss,html,php}\""
   },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": true,
-    "jsxSingleQuote": true,
-    "quoteProps": "as-needed",
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "none"
+  "prettier": "btc-prettier",
+  "dependencies": {
+    "btc-prettier": "file:../btc-prettier",
+    "yeoman-generator": "^5.4.2"
   },
   "devDependencies": {
-    "btc-prettier": "file:../btc-prettier",
     "prettier": "2.3.2",
-    "tar": "^6.1.8",
-    "yeoman-generator": "^5.3.0",
     "yeoman-test": "^6.2.0"
   }
 }

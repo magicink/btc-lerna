@@ -2,6 +2,7 @@
   "name": "babel-preset-btc",
   "version": "1.0.0",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "private": false,
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
