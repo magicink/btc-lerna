@@ -2,7 +2,7 @@
   "name": "babel-preset-btc",
   "version": "1.0.0",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "private": false,
+  "private": true,
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
@@ -45,8 +45,5 @@
     "@babel/runtime": "^7.15.4",
     "core-js": "^3.18.3",
     "regenerator-runtime": "^0.13.9"
-  },
-  "devDependencies": {
-    "prettier": "2.4.1"
   }
 }
