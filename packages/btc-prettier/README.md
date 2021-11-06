@@ -12,7 +12,7 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
-  "prettier": "btc-prettier",
+  "prettier": "@brandontom/prettier",
   ...
 }
 ```
