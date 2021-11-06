@@ -1,5 +1,5 @@
 {
-  "name": "btc-lerna",
+  "name": "@brandontom/lerna",
   "private": true,
   "scripts": {},
   "dependencies": {
