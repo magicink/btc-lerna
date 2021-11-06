@@ -2,7 +2,19 @@
   "version": "1.0.0",
   "command": {
     "bootstrap": {
-      "hoist": ["@brandontom/**", "prettier", "react*"]
+      "hoist": [
+        "@babel/**",
+        "@brandontom/**",
+        "@rollup/**",
+        "@storybook/**",
+        "babel*",
+        "prettier",
+        "react*",
+        "rollup*",
+        "storybook*",
+        "webpack*",
+        "yeoman*"
+      ]
     },
     "publish": {
       "ignoreChanges": [".gitignore", "*.md"]
