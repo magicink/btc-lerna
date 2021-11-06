@@ -1,11 +1,7 @@
-# `btc-core`
+# `@brandontom/core`
 
-> TODO: description
-
-## Usage
+## Installation
 
 ```
-const btcCore = require('btc-core');
-
-// TODO: DEMONSTRATE API
+npm i @brandontom/core
 ```
