@@ -8,9 +8,13 @@
         "@rollup/**",
         "@storybook/**",
         "babel*",
+        "core-js",
+        "cross-env",
         "prettier",
         "react*",
+        "rimraf",
         "rollup*",
+        "runtime-regenerator",
         "storybook*",
         "webpack*",
         "yeoman*"
