@@ -1,0 +1,20 @@
+{
+  "name": "@brandontom/babel-preset",
+  "version": "1.0.0",
+  "description": "Babel dependencies",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "license": "ISC",
+  "main": "package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.0"
+  }
+}

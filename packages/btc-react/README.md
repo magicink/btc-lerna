@@ -1,11 +1,7 @@
-# `btc-react`
+# `@brandontom/react`
 
-> TODO: description
-
-## Usage
+## Installation
 
 ```
-const btcReact = require('btc-react');
-
-// TODO: DEMONSTRATE API
+npm i @brandontom/react
 ```

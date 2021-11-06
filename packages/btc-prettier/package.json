@@ -14,6 +14,7 @@
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": ".prettierrc.json",
   "dependencies": {
+    "@prettier/plugin-php": "^0.17.6",
     "prettier": "^2.4.1"
   }
 }
