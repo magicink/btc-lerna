@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "command": {
     "bootstrap": {
-      "hoist": ["@babel/**"]
+      "hoist": ["@brandontom/**", "prettier"]
     },
     "publish": {
       "ignoreChanges": [".gitignore", "*.json", "*.md"]

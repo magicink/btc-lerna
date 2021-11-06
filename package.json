@@ -1,28 +1,8 @@
 {
   "name": "btc-lerna",
   "private": true,
-  "scripts": {
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
-  },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": true,
-    "jsxSingleQuote": true,
-    "quoteProps": "as-needed",
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "none"
-  },
+  "scripts": {},
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "jest": "^27.1.0",
-    "lerna": "^4.0.0",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.56.3"
-  },
-  "devDependencies": {
-    "btc-prettier": "file:packages/btc-prettier",
-    "prettier": "2.3.2"
+    "lerna": "^4.0.0"
   }
 }
