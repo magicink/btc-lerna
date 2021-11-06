@@ -1,4 +1,5 @@
 # Artifacts
+.idea/
 dist/
 
 # Lock files
