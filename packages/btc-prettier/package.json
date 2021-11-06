@@ -1,5 +1,5 @@
 {
-  "name": "btc-prettier",
+  "name": "@brandontom/prettier",
   "version": "1.0.0",
   "description": "A reusable Prettier configuration.",
   "homepage": "https://github.com/magicink/btc-lerna#readme",

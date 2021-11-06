@@ -5,7 +5,7 @@
       "hoist": ["@brandontom/**", "prettier"]
     },
     "publish": {
-      "ignoreChanges": [".gitignore", "*.json", "*.md"]
+      "ignoreChanges": [".gitignore"]
     }
   },
   "npmClient": "npm",
