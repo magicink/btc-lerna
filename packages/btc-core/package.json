@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "dependencies": {
+    "@brandontom/babel-preset": "^1.0.1"
   }
 }
