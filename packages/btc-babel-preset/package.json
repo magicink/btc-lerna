@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/babel-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel dependencies",
   "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",

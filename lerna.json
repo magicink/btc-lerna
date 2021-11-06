@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "command": {
     "bootstrap": {
       "hoist": [
@@ -21,9 +21,14 @@
       ]
     },
     "publish": {
-      "ignoreChanges": [".gitignore", "*.md"]
+      "ignoreChanges": [
+        ".gitignore",
+        "*.md"
+      ]
     }
   },
   "npmClient": "npm",
-  "packages": ["packages/*"]
+  "packages": [
+    "packages/*"
+  ]
 }
