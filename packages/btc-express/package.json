@@ -1,0 +1,26 @@
+{
+  "name": "@brandontom/express",
+  "version": "1.0.2",
+  "description": "Express dependencies",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "package.json",
+  "scripts": {},
+  "prettier": "@brandontom/prettier",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "optionalDependencies": {
+    "@brandontom/prettier": "^1.0.1"
+  }
+}
