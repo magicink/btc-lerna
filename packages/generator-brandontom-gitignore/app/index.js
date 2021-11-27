@@ -1,9 +1,5 @@
 const Generator = require('yeoman-generator')
 module.exports = class extends Generator {
-  constructor () {
-    super()
-    this.option('target', {type: String})
-  }
   async writing () {
     switch (this.options.target) {
       case 'unity':
