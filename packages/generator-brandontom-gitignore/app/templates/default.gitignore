@@ -1,5 +1,21 @@
 # Artifacts
 dist/
 
+# IDE configs
+.idea/
+
 # Dependencies
 node_modules/
+
+# Logs
+lerna-debug.log
+
+# Other
+**/btc-sandbox/*
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
