@@ -8,5 +8,11 @@ node_modules/
 lerna-debug.log
 
 # Other
-.yarn/
 **/btc-sandbox/*
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
