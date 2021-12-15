@@ -13,14 +13,13 @@
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "package.json",
-  "scripts": {},
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "helmet": "^4.6.0"
   },
-  "optionalDependencies": {
+  "devDependencies": {
     "@brandontom/prettier": "^1.0.1"
   }
 }

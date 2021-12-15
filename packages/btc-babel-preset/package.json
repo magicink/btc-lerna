@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
-  "scripts": {},
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.16.0",
-    "@babel/preset-react": "^7.16.0"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5"
   }
 }

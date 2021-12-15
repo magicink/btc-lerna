@@ -8,4 +8,5 @@ node_modules/
 lerna-debug.log
 
 # Other
+.yarn/
 **/btc-sandbox/*

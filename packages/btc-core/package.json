@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
-  "scripts": {},
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
   },

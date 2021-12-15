@@ -1,12 +1,14 @@
 {
   "name": "@brandontom/lerna",
   "private": true,
-  "scripts": {},
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "lerna": "^4.0.0"
   },
-  "optionalDependencies": {
+  "devDependencies": {
     "@brandontom/prettier": "^1.0.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

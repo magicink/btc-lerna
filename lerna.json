@@ -27,7 +27,7 @@
       ]
     }
   },
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "packages": [
     "packages/*"
   ]

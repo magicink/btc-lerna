@@ -2,25 +2,25 @@
   "name": "generator-brandontom-gitignore",
   "version": "1.0.2",
   "description": "Creates a .gitignore",
-  "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "ISC",
-  "main": "app/index.js",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "app/index.js",
   "scripts": {
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
   },
-  "bugs": {
-    "url": "https://github.com/magicink/btc-lerna/issues"
-  },
+  "prettier": "@brandontom/prettier",
   "dependencies": {
     "yeoman-generator": "^5.4.2"
   },
-  "prettier": "@brandontom/prettier",
-  "optionalDependencies": {
-    "@brandontom/prettier": "1.0.1"
+  "devDependencies": {
+    "@brandontom/prettier": "^1.0.1"
   }
 }
