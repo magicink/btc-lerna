@@ -1,3 +1,6 @@
+# Artifacts
+dist/
+
 # IDE configs
 .idea/
 
