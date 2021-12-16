@@ -1,5 +1,5 @@
-# Source files
-src/
+# Artifacts
+dist/
 
 # IDE configs
 .idea/
@@ -19,4 +19,3 @@ lerna-debug.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-.prettierignore

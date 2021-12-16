@@ -13,6 +13,9 @@
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "npx rimraf dist",
     "build": "babel src --out-dir dist --extensions .js",
