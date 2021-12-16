@@ -971,12 +971,14 @@
   dependencies:
     "@babel/preset-env" "^7.16.5"
     "@babel/preset-react" "^7.16.5"
+  optionalDependencies:
+    "@brandontom/prettier" "1.0.4"
 
 "@brandontom/core@file:D:\\projects\\btc-lerna\\packages\\btc-core":
   "resolved" "file:packages/btc-core"
   "version" "1.0.5"
   dependencies:
-    "@brandontom/babel-preset" "^1.0.3"
+    "@brandontom/babel-preset" "^1.0.5"
 
 "@brandontom/express@file:D:\\projects\\btc-lerna\\packages\\btc-express":
   "resolved" "file:packages/btc-express"
@@ -3023,7 +3025,14 @@
     "path-type" "^4.0.0"
     "yaml" "^1.10.0"
 
-"cross-spawn@^7.0.0", "cross-spawn@^7.0.3":
+"cross-env@^7.0.3":
+  "integrity" "sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw=="
+  "resolved" "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
+  "version" "7.0.3"
+  dependencies:
+    "cross-spawn" "^7.0.1"
+
+"cross-spawn@^7.0.0", "cross-spawn@^7.0.1", "cross-spawn@^7.0.3":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
   "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
   "version" "7.0.3"

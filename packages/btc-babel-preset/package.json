@@ -21,6 +21,9 @@
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5"
   },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
   "optionalDependencies": {
     "@brandontom/prettier": "1.0.4"
   }
