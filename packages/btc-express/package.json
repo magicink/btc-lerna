@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/express",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Express dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
@@ -20,6 +20,6 @@
     "helmet": "^4.6.0"
   },
   "devDependencies": {
-    "@brandontom/prettier": "^1.0.3"
+    "@brandontom/prettier": "^1.0.4"
   }
 }

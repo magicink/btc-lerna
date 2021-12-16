@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/jest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Jest dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
@@ -18,12 +18,12 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
-    "@brandontom/babel-preset": "^1.0.3",
+    "@brandontom/babel-preset": "^1.0.4",
     "babel-jest": "^27.4.5",
     "jest": "^27.4.5",
     "jest-environment-jsdom": "^27.4.4"
   },
   "optionalDependencies": {
-    "@brandontom/prettier": "1.0.3"
+    "@brandontom/prettier": "^1.0.4"
   }
 }

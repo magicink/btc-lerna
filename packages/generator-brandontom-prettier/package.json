@@ -1,6 +1,6 @@
 {
   "name": "generator-brandontom-prettier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "Generates Prettier files and scripts.",
   "keywords": [
@@ -25,6 +25,6 @@
     "yeoman-generator": "^5.4.2"
   },
   "devDependencies": {
-    "@brandontom/prettier": "^1.0.3"
+    "@brandontom/prettier": "^1.0.4"
   }
 }
