@@ -1,6 +1,0 @@
-# Artifacts
-.idea/
-dist/
-
-# Lock files
-package-lock.json

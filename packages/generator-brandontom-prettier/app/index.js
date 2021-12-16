@@ -5,7 +5,7 @@ module.exports = class extends Generator {
       this.templatePath('prettierignore'),
       this.destinationPath('.prettierignore')
     )
-    this.addDevDependencies(['@brandontom/prettier'])
+    await this.addDevDependencies(['@brandontom/prettier'])
     const packageSettings = {
       prettier: '@brandontom/prettier',
       scripts: {
