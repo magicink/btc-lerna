@@ -2,17 +2,17 @@
   "name": "@brandontom/core",
   "version": "1.0.2",
   "description": "Core dependencies",
-  "author": "Brandon Tom <magicink@gmail.com>",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
-  "license": "ISC",
-  "main": "package.json",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
-  "bugs": {
-    "url": "https://github.com/magicink/btc-lerna/issues"
-  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "package.json",
   "dependencies": {
     "@brandontom/babel-preset": "^1.0.1"
   }
