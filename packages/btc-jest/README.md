@@ -2,7 +2,7 @@
 
 > Jest dependencies.
 
-## Usage
+## Installation
 
 ```
 npm i @brandontom/jest
