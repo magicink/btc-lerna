@@ -909,38 +909,37 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     "to-fast-properties" "^2.0.0"
 
-"@brandontom/babel-preset@^1.0.1", "@brandontom/babel-preset@file:D:\\projects\\btc-lerna\\packages\\btc-babel-preset":
+"@brandontom/babel-preset@^1.0.3", "@brandontom/babel-preset@file:D:\\projects\\btc-lerna\\packages\\btc-babel-preset":
   "resolved" "file:packages/btc-babel-preset"
-  "version" "1.0.1"
+  "version" "1.0.3"
   dependencies:
-    "@babel/core" "^7.16.0"
-    "@babel/preset-env" "^7.16.0"
-    "@babel/preset-react" "^7.16.0"
+    "@babel/preset-env" "^7.16.5"
+    "@babel/preset-react" "^7.16.5"
 
 "@brandontom/core@file:D:\\projects\\btc-lerna\\packages\\btc-core":
   "resolved" "file:packages/btc-core"
-  "version" "1.0.2"
+  "version" "1.0.3"
   dependencies:
     "@brandontom/babel-preset" "^1.0.1"
 
 "@brandontom/express@file:D:\\projects\\btc-lerna\\packages\\btc-express":
   "resolved" "file:packages/btc-express"
-  "version" "1.0.2"
+  "version" "1.0.3"
   dependencies:
     "compression" "^1.7.4"
     "express" "^4.17.1"
     "helmet" "^4.6.0"
 
-"@brandontom/prettier@^1.0.1", "@brandontom/prettier@file:D:\\projects\\btc-lerna\\packages\\btc-prettier":
+"@brandontom/prettier@^1.0.3", "@brandontom/prettier@file:D:\\projects\\btc-lerna\\packages\\btc-prettier":
   "resolved" "file:packages/btc-prettier"
-  "version" "1.0.1"
+  "version" "1.0.3"
   dependencies:
     "@prettier/plugin-php" "^0.17.6"
-    "prettier" "^2.4.1"
+    "prettier" "^2.5.1"
 
 "@brandontom/react@file:D:\\projects\\btc-lerna\\packages\\btc-react":
   "resolved" "file:packages/btc-react"
-  "version" "1.0.1"
+  "version" "1.0.3"
   dependencies:
     "react" "^17.0.2"
     "react-dom" "^17.0.2"
@@ -3028,13 +3027,13 @@
 
 "generator-brandontom-gitignore@file:D:\\projects\\btc-lerna\\packages\\generator-brandontom-gitignore":
   "resolved" "file:packages/generator-brandontom-gitignore"
-  "version" "1.0.2"
+  "version" "1.0.3"
   dependencies:
     "yeoman-generator" "^5.4.2"
 
 "generator-brandontom-prettier@file:D:\\projects\\btc-lerna\\packages\\generator-brandontom-prettier":
   "resolved" "file:packages/generator-brandontom-prettier"
-  "version" "1.0.2"
+  "version" "1.0.3"
   dependencies:
     "yeoman-generator" "^5.4.2"
 

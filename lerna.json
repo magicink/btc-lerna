@@ -23,7 +23,9 @@
     "publish": {
       "ignoreChanges": [
         ".gitignore",
-        "*.md"
+        "*.md",
+        "*.test.js",
+        "test.js"
       ]
     }
   },
