@@ -10,7 +10,7 @@ npm i @brandontom/jest
 
 ## Overriding the default configuration
 
-To override the default configuration, create a `.jest.config.js` file in the root of your project.
+To override the default configuration, create a `jest.config.js` file in the root of your project.
 
 ```
 // jest.config.js
