@@ -1013,14 +1013,13 @@
     "@babel/preset-flow" "^7.16.5"
     "@babel/preset-react" "^7.16.5"
     "babel-plugin-react-remove-properties" "^0.3.0"
-  optionalDependencies:
-    "@brandontom/prettier" "1.0.4"
 
 "@brandontom/core@file:D:\\projects\\btc-lerna\\packages\\btc-core":
   "resolved" "file:packages/btc-core"
   "version" "1.0.9"
   dependencies:
-    "@brandontom/babel-preset" "^1.0.6"
+    "@brandontom/babel-preset" "^1.0.9"
+    "@brandontom/jest" "^1.0.9"
 
 "@brandontom/express@file:D:\\projects\\btc-lerna\\packages\\btc-express":
   "resolved" "file:packages/btc-express"
@@ -1034,12 +1033,10 @@
   "resolved" "file:packages/btc-jest"
   "version" "1.0.9"
   dependencies:
-    "@brandontom/babel-preset" "^1.0.6"
+    "@brandontom/babel-preset" "^1.0.9"
     "babel-jest" "^27.4.5"
     "jest" "^27.4.5"
     "jest-environment-jsdom" "^27.4.4"
-  optionalDependencies:
-    "@brandontom/prettier" "^1.0.4"
 
 "@brandontom/prettier@^1.0.4", "@brandontom/prettier@1.0.4", "@brandontom/prettier@file:D:\\projects\\btc-lerna\\packages\\btc-prettier":
   "resolved" "file:packages/btc-prettier"
