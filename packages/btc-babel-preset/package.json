@@ -12,9 +12,12 @@
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
-  "main": "package.json",
+  "main": "dist/index.js",
   "scripts": {
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
+    "prebuild": "npx rimraf dist",
+    "build": "babel src --out-dir dist --extensions .js",
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
+    "prepare": "npm run build"
   },
   "browserslist": [
     "> 1%",
@@ -24,9 +27,12 @@
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "@babel/preset-env": "^7.16.5",
-    "@babel/preset-react": "^7.16.5"
+    "@babel/preset-flow": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "babel-plugin-react-remove-properties": "^0.3.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
     "cross-env": "^7.0.3"
   },
   "peerDependencies": {
