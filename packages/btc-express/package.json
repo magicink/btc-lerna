@@ -1,7 +1,7 @@
 {
-  "name": "@brandontom/prettier",
+  "name": "@brandontom/express",
   "version": "1.0.3",
-  "description": "A reusable Prettier configuration.",
+  "description": "Express dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
     "url": "https://github.com/magicink/btc-lerna/issues"
@@ -12,9 +12,14 @@
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
-  "main": ".prettierrc.json",
+  "main": "package.json",
+  "prettier": "@brandontom/prettier",
   "dependencies": {
-    "@prettier/plugin-php": "^0.17.6",
-    "prettier": "^2.5.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "@brandontom/prettier": "^1.0.3"
   }
 }

@@ -1,18 +1,21 @@
-# `btc-prettier`
+# `@brandontom/prettier`
 
 > A reusable Prettier configuration.
 
-## Usage
+## Installation
 
 ```
-// package.json
+npm i @brandontom/prettier
+```
 
+## Usage
+
+```json
 {
   "name": "project-name",
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
-  "prettier": "btc-prettier",
-  ...
+  "prettier": "@brandontom/prettier"
 }
 ```

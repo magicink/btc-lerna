@@ -1,24 +1,14 @@
 {
-  "name": "btc-lerna",
+  "name": "@brandontom/lerna",
   "private": true,
-  "scripts": {
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md}\""
-  },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": true,
-    "jsxSingleQuote": true,
-    "quoteProps": "as-needed",
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "none"
-  },
+  "prettier": "@brandontom/prettier",
   "dependencies": {
     "lerna": "^4.0.0"
   },
   "devDependencies": {
-    "btc-prettier": "file:packages/btc-prettier",
-    "prettier": "2.3.2"
-  }
+    "@brandontom/prettier": "^1.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

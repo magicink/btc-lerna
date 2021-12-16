@@ -1,13 +1,35 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.3",
   "command": {
     "bootstrap": {
-      "hoist": ["@babel/**"]
+      "hoist": [
+        "@babel/**",
+        "@brandontom/**",
+        "@rollup/**",
+        "@storybook/**",
+        "babel*",
+        "core-js",
+        "cross-env",
+        "prettier",
+        "react*",
+        "rimraf",
+        "rollup*",
+        "runtime-regenerator",
+        "storybook*",
+        "webpack*",
+        "yeoman*"
+      ]
     },
     "publish": {
-      "ignoreChanges": [".gitignore", "*.json", "*.md"]
+      "ignoreChanges": [
+        ".gitignore",
+        "*.md"
+      ]
     }
   },
   "npmClient": "npm",
-  "packages": ["packages/*"]
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true
 }
