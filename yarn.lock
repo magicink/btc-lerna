@@ -1010,7 +1010,9 @@
   "version" "1.0.6"
   dependencies:
     "@babel/preset-env" "^7.16.5"
+    "@babel/preset-flow" "^7.16.5"
     "@babel/preset-react" "^7.16.5"
+    "babel-plugin-react-remove-properties" "^0.3.0"
   optionalDependencies:
     "@brandontom/prettier" "1.0.4"
 

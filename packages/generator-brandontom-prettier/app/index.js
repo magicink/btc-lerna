@@ -5,12 +5,9 @@ module.exports = class extends Generator {
       this.templatePath('prettierignore'),
       this.destinationPath('.prettierignore')
     )
+    this.addDevDependencies(['@brandontom/prettier'])
     const packageSettings = {
       prettier: '@brandontom/prettier',
-      optionalDependencies: {
-        '@brandontom/prettier': require('@brandontom/prettier/package.json')
-          .version
-      },
       scripts: {
         format:
           'npx sort-package-json && prettier --write "**/*.{js,jsx,json,md,html,scss,css}"'

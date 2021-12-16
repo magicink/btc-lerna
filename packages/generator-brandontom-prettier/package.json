@@ -22,9 +22,7 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
+    "@brandontom/prettier": "^1.0.4",
     "yeoman-generator": "^5.4.2"
-  },
-  "devDependencies": {
-    "@brandontom/prettier": "^1.0.4"
   }
 }
