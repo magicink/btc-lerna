@@ -1,0 +1,29 @@
+{
+  "name": "@brandontom/jest",
+  "version": "1.0.3",
+  "description": "Jest dependencies",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "package.json",
+  "scripts": {
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
+  },
+  "prettier": "@brandontom/prettier",
+  "dependencies": {
+    "@brandontom/babel-preset": "^1.0.3",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "jest-environment-jsdom": "^27.4.4"
+  },
+  "optionalDependencies": {
+    "@brandontom/prettier": "1.0.3"
+  }
+}

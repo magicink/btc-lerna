@@ -5,5 +5,5 @@
 ## Usage
 
 ```
-npm i -P @brandontom/express
+npm i @brandontom/express
 ```
