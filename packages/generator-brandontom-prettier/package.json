@@ -1,6 +1,6 @@
 {
   "name": "generator-brandontom-prettier",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "private": true,
   "description": "Generates Prettier files and scripts.",
   "keywords": [
