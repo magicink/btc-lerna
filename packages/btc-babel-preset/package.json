@@ -16,6 +16,11 @@
   "scripts": {
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ],
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "@babel/preset-env": "^7.16.5",
@@ -24,7 +29,15 @@
   "devDependencies": {
     "cross-env": "^7.0.3"
   },
+  "peerDependencies": {
+    "@babel/core": ">=7.16.5",
+    "core-js": ">=3.20.0",
+    "runtime-regenerator": ">=0.11.0"
+  },
   "optionalDependencies": {
     "@brandontom/prettier": "1.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
