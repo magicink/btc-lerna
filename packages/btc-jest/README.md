@@ -1,6 +1,6 @@
 # `@brandontom/jest`
 
-> Jest dependencies.
+> Reusable and extendable Jest configurations.
 
 ## Installation
 
@@ -17,7 +17,7 @@ To use the default configurations create a `jest.config.js` file in the root of 
 module.exports = require('@brandontom/jest')
 ```
 
-## Overriding the default configuration
+### Overriding the default configuration
 
 To override the default configuration, create a `jest.config.js` file in the root of your project.
 
