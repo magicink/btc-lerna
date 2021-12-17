@@ -12,6 +12,8 @@ Add the following the `presets` of your `.babelrc.json`.
 
 ```json
 {
-  "presets": ["@brandontom/babel-preset"]
+  "presets": ["module:@brandontom/babel-preset"]
 }
 ```
+
+(**Note**: The `module:` prefix is required.)
