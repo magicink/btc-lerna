@@ -9,6 +9,7 @@ node_modules/
 
 # Logs
 lerna-debug.log
+coverage/
 
 # Other
 **/btc-sandbox/*
