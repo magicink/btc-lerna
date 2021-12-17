@@ -24,7 +24,6 @@
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
-    "babel-jest": "^27.4.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.5",
     "jest-environment-jsdom": "^27.4.4"
