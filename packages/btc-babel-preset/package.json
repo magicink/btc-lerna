@@ -25,6 +25,7 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-flow": "^7.16.5",
     "@babel/preset-react": "^7.16.5",

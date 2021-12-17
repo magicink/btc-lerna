@@ -1,3 +1,4 @@
+const plugins = ['@babel/plugin-transform-runtime']
 const presets = [
   [
     '@babel/preset-env',
@@ -16,14 +17,18 @@ const presets = [
 ]
 const env = {
   development: {
+    plugins,
     presets
   },
   production: {
     plugins: [
-      ['babel-plugin-react-remove-properties', { properties: ['data-testid'] }]
+      [
+        'babel-plugin-react-remove-properties',
+        { properties: ['data-testid'] }
+      ].concat(plugins)
     ],
     presets
   }
 }
-const preset = _ => ({env})
+const preset = _ => ({ env })
 export default preset
