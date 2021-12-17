@@ -1,6 +1,6 @@
 {
   "name": "generator-brandontom-gitignore",
-  "version": "1.0.4",
+  "version": "1.0.12",
   "private": true,
   "description": "Creates a .gitignore",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
