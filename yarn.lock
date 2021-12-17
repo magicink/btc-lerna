@@ -1017,9 +1017,9 @@
   "resolved" "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   "version" "0.2.3"
 
-"@brandontom/babel-preset@^1.0.14", "@brandontom/babel-preset@file:D:\\projects\\btc-lerna\\packages\\btc-babel-preset":
+"@brandontom/babel-preset@^1.0.15", "@brandontom/babel-preset@file:D:\\projects\\btc-lerna\\packages\\btc-babel-preset":
   "resolved" "file:packages/btc-babel-preset"
-  "version" "1.0.14"
+  "version" "1.0.15"
   dependencies:
     "@babel/plugin-transform-runtime" "^7.16.5"
     "@babel/preset-env" "^7.16.5"
@@ -1029,22 +1029,22 @@
 
 "@brandontom/core@file:D:\\projects\\btc-lerna\\packages\\btc-core":
   "resolved" "file:packages/btc-core"
-  "version" "1.0.14"
+  "version" "1.0.15"
   dependencies:
     "@brandontom/babel-preset" "^1.0.14"
     "@brandontom/jest" "^1.0.14"
 
 "@brandontom/express@file:D:\\projects\\btc-lerna\\packages\\btc-express":
   "resolved" "file:packages/btc-express"
-  "version" "1.0.14"
+  "version" "1.0.15"
   dependencies:
     "compression" "^1.7.4"
     "express" "^4.17.1"
     "helmet" "^4.6.0"
 
-"@brandontom/jest@^1.0.14", "@brandontom/jest@file:D:\\projects\\btc-lerna\\packages\\btc-jest":
+"@brandontom/jest@^1.0.15", "@brandontom/jest@file:D:\\projects\\btc-lerna\\packages\\btc-jest":
   "resolved" "file:packages/btc-jest"
-  "version" "1.0.14"
+  "version" "1.0.15"
   dependencies:
     "@testing-library/jest-dom" "^5.16.1"
     "identity-obj-proxy" "^3.0.0"
@@ -1060,7 +1060,7 @@
 
 "@brandontom/react@file:D:\\projects\\btc-lerna\\packages\\btc-react":
   "resolved" "file:packages/btc-react"
-  "version" "1.0.14"
+  "version" "1.0.15"
   dependencies:
     "@brandontom/babel-preset" "^1.0.14"
     "react" "^17.0.2"
