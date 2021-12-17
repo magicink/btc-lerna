@@ -23,6 +23,8 @@
     "publish": {
       "ignoreChanges": [
         ".gitignore",
+        "*.lock",
+        "*-lock.json",
         "*.md",
         "*.test.js",
         "test.js"
