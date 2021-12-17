@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/core",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Core dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
@@ -14,7 +14,7 @@
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "package.json",
   "dependencies": {
-    "@brandontom/babel-preset": "^1.0.15",
-    "@brandontom/jest": "^1.0.15"
+    "@brandontom/babel-preset": "^1.0.16",
+    "@brandontom/jest": "^1.0.16"
   }
 }
