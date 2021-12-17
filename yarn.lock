@@ -1039,7 +1039,7 @@
   "version" "1.0.15"
   dependencies:
     "compression" "^1.7.4"
-    "express" "^4.17.1"
+    "express" "^4.17.2"
     "helmet" "^4.6.0"
 
 "@brandontom/jest@^1.0.15", "@brandontom/jest@file:D:\\projects\\btc-lerna\\packages\\btc-jest":
