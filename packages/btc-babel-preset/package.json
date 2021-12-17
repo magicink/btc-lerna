@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magicink/btc-lerna.git"
+    "url": "git+https://github.com/magicink/btc-lerna.git",
+    "directory": "packages/btc-babel-preset"
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
@@ -22,11 +23,6 @@
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
     "prepare": "npm run build"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 11"
-  ],
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "@babel/preset-env": "^7.16.5",

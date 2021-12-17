@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magicink/btc-lerna.git"
+    "url": "git+https://github.com/magicink/btc-lerna.git",
+    "directory": "packages/btc-jest"
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
@@ -18,17 +19,20 @@
   ],
   "scripts": {
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
-    "test": "jest"
+    "test": "cross-env NODE_ENV=development jest"
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
     "babel-jest": "^27.4.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.5",
     "jest-environment-jsdom": "^27.4.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.5",
     "@brandontom/babel-preset": "^1.0.9",
-    "@brandontom/prettier": "1.0.4"
+    "@brandontom/prettier": "1.0.4",
+    "cross-env": "^7.0.3"
   }
 }

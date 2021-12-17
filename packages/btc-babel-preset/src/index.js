@@ -15,16 +15,15 @@ const presets = [
   ['@babel/preset-flow']
 ]
 const env = {
+  development: {
+    presets
+  },
   production: {
     plugins: [
       ['babel-plugin-react-remove-properties', { properties: ['data-testid'] }]
-    ]
-  }
-}
-const preset = _ => {
-  return {
-    env,
+    ],
     presets
   }
 }
+const preset = _ => ({env})
 export default preset
