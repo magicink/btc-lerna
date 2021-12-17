@@ -4,19 +4,16 @@
     "bootstrap": {
       "hoist": [
         "@babel/**",
-        "@brandontom/**",
         "@rollup/**",
         "@storybook/**",
         "babel*",
         "core-js",
         "cross-env",
+        "express",
         "prettier",
         "react*",
         "rimraf",
-        "rollup*",
         "runtime-regenerator",
-        "storybook*",
-        "webpack*",
         "yeoman*"
       ]
     },
