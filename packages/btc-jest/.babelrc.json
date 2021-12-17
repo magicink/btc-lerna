@@ -1,3 +1,3 @@
 {
-  "presets": ["@brandontom/babel-preset"]
+  "presets": ["@babel/preset-env"]
 }
