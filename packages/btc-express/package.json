@@ -14,13 +14,12 @@
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "package.json",
   "scripts": {
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
-    "test": "jest"
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "helmet": "^4.6.0"
   },
   "devDependencies": {
