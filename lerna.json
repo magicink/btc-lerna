@@ -3,16 +3,8 @@
   "command": {
     "bootstrap": {
       "hoist": [
-        "@rollup/**",
-        "@storybook/**",
-        "core-js",
-        "cross-env",
-        "express",
         "prettier",
-        "react*",
-        "rimraf",
-        "runtime-regenerator",
-        "yeoman*"
+        "rimraf"
       ]
     },
     "publish": {
