@@ -1,12 +1,12 @@
 {
   "name": "@brandontom/lerna",
   "private": true,
-  "dependencies": {
-    "lerna": "^4.0.0"
-  },
   "scripts": {
     "bootstrap": "npx lerna bootstrap --concurrency 1",
     "clean": "npx lerna clean --yes",
     "test": "npx lerna run test --stream --concurrency 1"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
   }
 }
