@@ -2,7 +2,7 @@
   "name": "@brandontom/lerna",
   "private": true,
   "scripts": {
-    "bootstrap": "npx lerna bootstrap --concurrency 1 --no-ci",
+    "bootstrap": "npx lerna bootstrap --concurrency 1",
     "prebuild": "npm run clean",
     "build": "npm run bootstrap",
     "postbuild": "npm run test",
