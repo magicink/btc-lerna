@@ -15,4 +15,7 @@ module.exports = class extends Generator {
     }
     this.fs.extendJSON(this.destinationPath('package.json'), packageSettings)
   }
+  end() {
+    this.spawnCommandSync('npm', ['run', 'format'])
+  }
 }
