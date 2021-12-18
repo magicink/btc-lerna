@@ -1,4 +1,7 @@
-const plugins = ['@babel/plugin-transform-runtime']
+const plugins = [
+  '@babel/plugin-transform-modules-commonjs',
+  '@babel/plugin-transform-runtime'
+]
 const presets = [
   [
     '@babel/preset-env',
@@ -7,27 +10,10 @@ const presets = [
       modules: false
     }
   ],
-  [
-    '@babel/preset-react',
-    {
-      development: process.env.NODE_ENV !== 'production'
-    }
-  ],
-  ['@babel/preset-flow']
+  ['@babel/preset-react', {
+    development: process.env.NODE_ENV !== 'production'
+  }]
 ]
-module.exports = _ => ({
-  env: {
-    test: {
-      plugins
-    },
-    production: {
-      plugins: [
-        [
-          'babel-plugin-react-remove-properties',
-          { properties: ['data-testid'] }
-        ].concat(plugins)
-      ]
-    }
-  },
-  presets
-})
+module.exports = () => {
+  return { plugins, presets }
+}

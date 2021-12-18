@@ -3,10 +3,8 @@
   "command": {
     "bootstrap": {
       "hoist": [
-        "@babel/**",
         "@rollup/**",
         "@storybook/**",
-        "babel*",
         "core-js",
         "cross-env",
         "express",
@@ -19,11 +17,12 @@
     },
     "publish": {
       "ignoreChanges": [
-        ".gitignore",
-        "*.lock",
         "*-lock.json",
+        "*.lock",
         "*.md",
         "*.test.js",
+        ".gitignore",
+        ".prettierignore",
         "test.js"
       ]
     }
