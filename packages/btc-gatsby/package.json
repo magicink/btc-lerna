@@ -32,7 +32,6 @@
     "json-to-graphql-schema": "^1.0.0"
   },
   "devDependencies": {
-    "@brandontom/prettier": "1.0.16",
-    "immer": "^9.0.7"
+    "@brandontom/prettier": "1.0.16"
   }
 }
