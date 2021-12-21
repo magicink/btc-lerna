@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/gatsby",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "private": true,
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
@@ -20,7 +20,7 @@
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "@babel/register": "^7.16.5",
-    "@brandontom/react": "^1.0.18",
+    "@brandontom/react": "^1.0.19",
     "babel-preset-gatsby": "^2.4.0",
     "esm": "^3.2.25",
     "gatsby": "^4.4.0",
