@@ -13,10 +13,15 @@
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
   "scripts": {
-    "prebuild": "gatsby clean",
-    "build": "cross-env NODE_ENV=development gatsby build",
+    "btc:build": "cross-env BUILD_TARGET=btc npm run build",
+    "btc:develop": "cross-env BUILD_TARGET=btc gatsby develop",
     "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
-    "gatsby:develop": "cross-env NODE_ENV=development gatsby develop"
+    "prebuild": "gatsby clean",
+    "build": "gatsby build",
+    "pyxl:build": "cross-env BUILD_TARGET=pyxl npm run build",
+    "pyxl:develop": "cross-env BUILD_TARGET=pyxl gatsby develop",
+    "tutrev:build": "cross-env BUILD_TARGET=tutrev npm run build",
+    "tutrev:develop": "cross-env BUILD_TARGET=tutrev gatsby develop"
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
