@@ -1,5 +1,7 @@
 # Artifacts
+.cache/
 dist/
+public/
 
 # Lockfiles
 package-lock.json
