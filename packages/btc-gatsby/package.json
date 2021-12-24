@@ -15,9 +15,9 @@
   "scripts": {
     "btc:build": "cross-env BUILD_TARGET=btc npm run build",
     "btc:develop": "cross-env BUILD_TARGET=btc gatsby develop",
-    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
     "prebuild": "gatsby clean",
     "build": "gatsby build",
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\"",
     "pyxl:build": "cross-env BUILD_TARGET=pyxl npm run build",
     "pyxl:develop": "cross-env BUILD_TARGET=pyxl gatsby develop",
     "tutrev:build": "cross-env BUILD_TARGET=tutrev npm run build",

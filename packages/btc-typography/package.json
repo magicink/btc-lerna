@@ -1,0 +1,26 @@
+{
+  "name": "@brandontom/typography",
+  "version": "1.0.19",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "scripts": {
+    "format": "npx sort-package-json && prettier --write \"**/*.{js,jsx,json,md,html,scss,css}\""
+  },
+  "prettier": "@brandontom/prettier",
+  "dependencies": {
+    "typography": "^0.16.21"
+  },
+  "devDependencies": {
+    "@brandontom/prettier": "1.0.16"
+  },
+  "private": true
+}

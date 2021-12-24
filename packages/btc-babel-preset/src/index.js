@@ -10,9 +10,12 @@ const presets = [
       modules: false
     }
   ],
-  ['@babel/preset-react', {
-    development: process.env.NODE_ENV !== 'production'
-  }]
+  [
+    '@babel/preset-react',
+    {
+      development: process.env.NODE_ENV !== 'production'
+    }
+  ]
 ]
 module.exports = () => {
   return { plugins, presets }
