@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/react",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "React dependencies",
   "keywords": [
     "react"
@@ -26,7 +26,7 @@
     "react-test-renderer": "^17.0.2"
   },
   "devDependencies": {
-    "@brandontom/babel-preset": "^1.0.18",
+    "@brandontom/babel-preset": "^1.0.20",
     "@brandontom/prettier": "1.0.16"
   }
 }
