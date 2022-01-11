@@ -25,11 +25,11 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.4.5",
-    "jest-environment-jsdom": "^27.4.4"
+    "jest": "^27.4.7",
+    "jest-environment-jsdom": "^27.4.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@brandontom/babel-preset": "^1.0.20",
     "@brandontom/prettier": "1.0.16",
     "babel-preset-jest": "^27.4.0",
