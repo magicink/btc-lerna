@@ -1,0 +1,26 @@
+{
+  "name": "@brandontom/storybook-react",
+  "version": "1.0.23",
+  "description": "@storybook/react dependencies.",
+  "keywords": [
+    "react",
+    "storybook"
+  ],
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "license": "ISC",
+  "main": "package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "dependencies": {
+    "@storybook/addon-essentials": "^6.4.12",
+    "@storybook/cli": "^6.4.12",
+    "@storybook/react": "^6.4.12"
+  }
+}
