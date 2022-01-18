@@ -30,7 +30,7 @@
     "@babel/preset-flow": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
     "babel-plugin-react-remove-properties": "^0.3.0",
-    "core-js": "^3.20.2",
+    "core-js": "^3.20.3",
     "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
