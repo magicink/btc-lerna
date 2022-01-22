@@ -23,9 +23,9 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
-    "@storybook/addon-essentials": "^6.4.12",
-    "@storybook/cli": "^6.4.12",
-    "@storybook/react": "^6.4.12"
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/cli": "^6.4.14",
+    "@storybook/react": "^6.4.14"
   },
   "devDependencies": {
     "@brandontom/babel-preset": "^1.0.24",
