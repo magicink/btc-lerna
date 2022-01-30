@@ -2,10 +2,7 @@
   "version": "1.0.26",
   "command": {
     "bootstrap": {
-      "hoist": [
-        "prettier",
-        "rimraf"
-      ]
+      "hoisted": true
     },
     "publish": {
       "ignoreChanges": [
