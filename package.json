@@ -3,18 +3,18 @@
   "private": true,
   "workspaces": {
     "packages": [
+      "apps/*",
       "packages/*"
     ]
   },
   "scripts": {
-    "bootstrap": "npx lerna bootstrap --concurrency 1",
-    "prebuild": "npm run clean",
-    "build": "npm run bootstrap",
-    "postbuild": "npm run test",
-    "clean": "npx lerna clean --yes",
-    "test": "npx lerna run test --stream --concurrency 1"
+    "bootstrap": "npx --yes lerna@latest bootstrap --ignore-scripts",
+    "build": "npx --yes turbo@latest run build",
+    "prepare": "npx --yes husky@latest install",
+    "test": "npx --yes turbo@latest run test"
   },
   "dependencies": {
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
     "turbo": "^1.2.6"
   }
