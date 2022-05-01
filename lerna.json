@@ -16,8 +16,9 @@
       ]
     }
   },
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "packages": [
     "packages/*"
-  ]
+  ],
+  "useWorkspaces": true
 }
