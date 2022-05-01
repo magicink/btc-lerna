@@ -24,6 +24,9 @@
     "tutrev:develop": "cross-env BUILD_TARGET=tutrev gatsby develop"
   },
   "prettier": "@brandontom/prettier",
+  "resolutions": {
+    "cross-fetch": ">=3.1.5"
+  },
   "dependencies": {
     "@babel/register": "^7.17.7",
     "@brandontom/react": "^1.0.25",
@@ -47,8 +50,5 @@
   },
   "devDependencies": {
     "@brandontom/prettier": "1.0.16"
-  },
-  "resolutions": {
-    "cross-fetch": ">=3.1.5"
   }
 }

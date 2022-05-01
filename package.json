@@ -10,6 +10,7 @@
   "scripts": {
     "bootstrap": "npx --yes lerna@latest bootstrap --ignore-scripts",
     "build": "npx --yes turbo@latest run build",
+    "format": "npx --yes sort-package-json && npx --yes turbo@latest run format",
     "prepare": "npx --yes husky@latest install",
     "test": "npx --yes turbo@latest run test"
   },
