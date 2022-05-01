@@ -1,4 +1,5 @@
 # Artifacts
+.turbo/
 dist/
 
 # IDE configs
