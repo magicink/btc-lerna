@@ -15,8 +15,14 @@
     "test": "npx --yes turbo@latest run test"
   },
   "dependencies": {
+    "@prettier/plugin-php": "^0.18.9",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
     "husky": "^8.0.1",
     "lerna": "^5.4.3",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "sort-package-json": "^1.57.0",
     "turbo": "^1.4.3"
   }
 }
