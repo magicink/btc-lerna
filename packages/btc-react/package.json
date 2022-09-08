@@ -1,6 +1,7 @@
 {
   "name": "@brandontom/react",
   "version": "1.0.25",
+  "private": true,
   "description": "React dependencies",
   "keywords": [
     "react"

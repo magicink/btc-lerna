@@ -1,6 +1,7 @@
 {
   "name": "@brandontom/core",
   "version": "1.0.25",
+  "private": true,
   "description": "Core dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
