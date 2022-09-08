@@ -1,6 +1,6 @@
 {
   "name": "generator-brandontom-gitignore",
-  "version": "1.0.16",
+  "version": "1.0.27",
   "private": true,
   "description": "Creates a .gitignore",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
@@ -20,6 +20,5 @@
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "yeoman-generator": "^5.4.2"
-  },
-  "devDependencies": {}
+  }
 }

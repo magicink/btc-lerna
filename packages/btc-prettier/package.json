@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/prettier",
-  "version": "1.0.16",
+  "version": "1.0.27",
   "description": "A reusable Prettier configuration.",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
@@ -12,7 +12,5 @@
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
-  "main": ".prettierrc.json",
-  "dependencies": {
-  }
+  "main": ".prettierrc.json"
 }

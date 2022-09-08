@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/react",
-  "version": "1.0.25",
+  "version": "1.0.27",
   "private": true,
   "description": "React dependencies",
   "keywords": [
@@ -24,6 +24,5 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {}
+  }
 }

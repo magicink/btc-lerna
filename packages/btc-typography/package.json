@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/typography",
-  "version": "1.0.20",
+  "version": "1.0.27",
   "private": true,
   "description": "> TODO: description",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
@@ -19,6 +19,5 @@
   "prettier": "@brandontom/prettier",
   "dependencies": {
     "typography": "^0.16.21"
-  },
-  "devDependencies": {}
+  }
 }

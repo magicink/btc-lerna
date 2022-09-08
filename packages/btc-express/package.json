@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/express",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "private": true,
   "description": "Express dependencies",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
@@ -22,6 +22,5 @@
     "compression": "^1.7.4",
     "express": "^4.17.2",
     "helmet": "^5.0.1"
-  },
-  "devDependencies": {}
+  }
 }
