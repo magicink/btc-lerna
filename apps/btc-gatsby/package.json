@@ -25,6 +25,7 @@
     "@babel/register": "^7.18.9",
     "babel-plugin-styled-components": "^2.0.7",
     "babel-preset-gatsby": "^2.21.0",
+    "caching": "^0.1.4",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.1",
     "esm": "^3.2.25",

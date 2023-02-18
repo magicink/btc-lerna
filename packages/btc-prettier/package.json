@@ -12,5 +12,8 @@
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
-  "main": ".prettierrc.json"
+  "main": ".prettierrc.json",
+  "dependencies": {
+    "caching": "^0.1.4"
+  }
 }

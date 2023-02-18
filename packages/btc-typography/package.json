@@ -18,6 +18,7 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
+    "caching": "^0.1.4",
     "typography": "^0.16.21"
   }
 }
