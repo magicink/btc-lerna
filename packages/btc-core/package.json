@@ -19,8 +19,7 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
-    "@brandontom/babel-preset": "^1.0.27",
-    "caching": "^0.1.4"
+    "@brandontom/babel-preset": "^1.0.27"
   },
   "devDependencies": {
     "@brandontom/jest": "^1.0.27",

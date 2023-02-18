@@ -19,7 +19,6 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
-    "caching": "^0.1.4",
     "yeoman-generator": "^5.4.2"
   }
 }

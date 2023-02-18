@@ -19,7 +19,6 @@
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
-    "caching": "^0.1.4",
     "compression": "^1.7.4",
     "express": "^4.17.2",
     "helmet": "^5.0.1"
