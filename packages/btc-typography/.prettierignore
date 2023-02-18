@@ -1,6 +1,0 @@
-# Artifacts
-dist/
-
-# Lockfiles
-package-lock.json
-yarn.lock
