@@ -8,22 +8,17 @@
     ]
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --ignore-scripts",
-    "build": "lerna run build",
-    "format": "lerna run format",
     "prepare": "husky install",
     "test": "lerna run test"
   },
   "dependencies": {
-    "@prettier/plugin-php": "^0.19.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "husky": "^8.0.2",
     "lerna": "^6.5.1",
     "prettier": "^2.8.0",
     "rimraf": "^3.0.2",
-    "sort-package-json": "^2.1.0",
-    "turbo": "^1.6.3"
+    "sort-package-json": "^2.1.0"
   },
   "devDependencies": {
     "lint-staged": "^13.0.3",

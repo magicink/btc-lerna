@@ -7,11 +7,7 @@ module.exports = class extends Generator {
     )
     await this.addDevDependencies(['@brandontom/prettier'])
     const packageSettings = {
-      prettier: '@brandontom/prettier',
-      scripts: {
-        format:
-          'npx sort-package-json && prettier --write "**/*.{js,jsx,json,md,html,scss,css}"'
-      }
+      prettier: '@brandontom/prettier'
     }
     this.fs.extendJSON(this.destinationPath('package.json'), packageSettings)
   }
