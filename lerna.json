@@ -1,9 +1,6 @@
 {
   "version": "1.0.29",
   "command": {
-    "bootstrap": {
-      "hoisted": true
-    },
     "publish": {
       "ignoreChanges": [
         "*-lock.json",
