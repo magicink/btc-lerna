@@ -11,6 +11,9 @@ jobs:
       - name: install dependencies
         run: yarn
         shell: bash
+      - name: prepare
+        run: yarn lerna run prepare
+        shell: bash
       - name: test
         run: yarn test
         shell: bash
