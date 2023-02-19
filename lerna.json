@@ -10,7 +10,8 @@
         ".gitignore",
         ".prettierignore",
         "test.js"
-      ]
+      ],
+      "conventionalCommits": true
     }
   },
   "npmClient": "yarn",
