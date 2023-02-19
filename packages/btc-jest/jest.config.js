@@ -8,6 +8,6 @@ module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['<rootDir>/dist/'],
   transform: {
-    '^.+\\.jsx?$': 'babel-jest'
+    '^.+\\.[j|t]sx?$': 'babel-jest'
   }
 }

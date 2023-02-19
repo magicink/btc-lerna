@@ -10,7 +10,7 @@ const presets = [
       modules: false
     }
   ],
-  '@babel/preset-typescript',
+  ['@babel/preset-typescript', { isTSX: true, allExtensions: true }],
   [
     '@babel/preset-react',
     {

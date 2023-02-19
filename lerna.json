@@ -1,6 +1,9 @@
 {
   "version": "1.0.29",
   "command": {
+    "create": {
+      "private": true
+    },
     "publish": {
       "ignoreChanges": [
         "*-lock.json",

@@ -1,0 +1,24 @@
+{
+  "name": "btc-typescript",
+  "version": "1.0.29",
+  "private": true,
+  "keywords": [],
+  "homepage": "https://github.com/magicink/btc-lerna#readme",
+  "bugs": {
+    "url": "https://github.com/magicink/btc-lerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicink/btc-lerna.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Tom <magicink@gmail.com>",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  }
+}

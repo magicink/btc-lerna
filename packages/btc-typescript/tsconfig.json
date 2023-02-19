@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "moduleResolution": "Node"
+  },
+  "exclude": ["node_modules"]
+}
