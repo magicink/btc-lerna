@@ -1,6 +1,7 @@
 import { act, renderHook } from '@testing-library/react-hooks'
-const jestConfig = require('../jest.config')
-const React = require('react')
+import jestConfig from '../jest.config'
+import React from 'react'
+
 const useMockHook = () => {
   const [value, setValue] = React.useState(0)
   const increment = () => setValue(value + 1)

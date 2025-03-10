@@ -1,0 +1,4 @@
+{
+  "extends": "@brandontom/typescript",
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
