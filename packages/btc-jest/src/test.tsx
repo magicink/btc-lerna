@@ -1,5 +1,6 @@
+import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
-const React = require('react')
+import React from 'react'
 const TestComponent = () => <div data-testid={'test'}>Test</div>
 describe('React JSX', function () {
   it('should render', function () {
