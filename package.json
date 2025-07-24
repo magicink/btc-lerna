@@ -23,6 +23,8 @@
     "sort-package-json": "^2.1.0"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "lint-staged": "^13.0.3",
