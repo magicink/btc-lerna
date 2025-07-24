@@ -1,6 +1,6 @@
 {
   "name": "@brandontom/jest",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Reusable and extendable Jest configurations.",
   "homepage": "https://github.com/magicink/btc-lerna#readme",
   "bugs": {
