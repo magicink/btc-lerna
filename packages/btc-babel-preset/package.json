@@ -11,16 +11,16 @@
     "url": "git+https://github.com/magicink/btc-lerna.git",
     "directory": "packages/btc-babel-preset"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "prebuild": "npx rimraf dist",
-    "build": "babel src --out-dir dist --extensions .js",
-    "prepare": "npm run build"
+    "prebuild": "bun run rimraf dist",
+    "build": "bun run babel src --out-dir dist --extensions .js",
+    "prepare": "bun run build"
   },
   "prettier": "@brandontom/prettier",
   "dependencies": {
