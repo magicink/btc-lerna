@@ -75,7 +75,7 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           CI: true
-        run: bun x lerna publish ${{ steps.bump.outputs.release }} --no-private --loglevel info
+        run: bun x lerna publish ${{ steps.bump.outputs.release }} --yes --no-private --loglevel info
 
       - name: Push git tags
         if: steps.changes.outputs.has_changes == 'true'
