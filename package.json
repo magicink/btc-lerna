@@ -8,6 +8,8 @@
     ]
   },
   "scripts": {
+    "bump": "conventional-recommended-bump -p angular",
+    "commitlint": "commitlint --edit",
     "prepare": "husky || true",
     "test": "lerna run test"
   },
@@ -22,10 +24,13 @@
     "sort-package-json": "^2.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "conventional-recommended-bump": "^11.2.0",
     "husky": "^9.1.7",
     "lint-staged": "^13.0.3",
     "ts-node": "^10.9.2",
