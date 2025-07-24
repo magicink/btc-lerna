@@ -11,7 +11,7 @@
     "url": "git+https://github.com/magicink/btc-lerna.git",
     "directory": "packages/btc-jest"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Brandon Tom <magicink@gmail.com>",
   "exports": {
     ".": "./jest.config.ts"
