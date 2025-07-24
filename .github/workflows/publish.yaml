@@ -28,8 +28,6 @@ jobs:
       - name: Check for changed packages
         id: changes
         run: |
-          latest_tag=$(git describe --abbrev=0 --tags $(git rev-list --tags --max-count=1))
-          echo "Latest tag: $latest_tag"
           changed=$(bun x lerna changed --json 2>error.log || true)
           exit_code=$?
           if [ $exit_code -eq 0 ]; then
@@ -70,14 +68,19 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           bump=$(bun x conventional-recommended-bump -p angular)
+          case "$bump" in
+            major|minor|patch) ;;
+            *) echo "Invalid bump '$bump'" && exit 1 ;;
+          esac
           echo "release=$bump" >> "$GITHUB_OUTPUT"
 
       - name: Publish packages
         if: steps.changes.outputs.has_changes == 'true'
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: bun x lerna publish ${{ steps.bump.outputs.release }} --yes --no-private --loglevel info
+          CI: true
+        run: bun x lerna publish ${{ steps.bump.outputs.release }} --no-private --loglevel info
 
       - name: Push git tags
         if: steps.changes.outputs.has_changes == 'true'
-        run: git push --follow-tags origin HEAD:${{ github.ref_name }}
+        run: git push --follow-tags origin HEAD:develop
