@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
   "extends": "@brandontom/typescript",
   "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }

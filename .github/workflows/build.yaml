@@ -5,15 +5,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: '18'
+          bun-version: latest
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: bun.lock
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
       - name: install dependencies
-        run: yarn
+        run: bun install
         shell: bash
       - name: prepare
-        run: yarn lerna run prepare
+        run: bun run lerna run prepare
         shell: bash
       - name: test
-        run: yarn test
+        run: bun test
         shell: bash

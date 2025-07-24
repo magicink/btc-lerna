@@ -1,5 +1,5 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname "$0")/common.sh"
 
-corepack yarn test
-corepack yarn lint-staged
+bun test
+bun lint-staged
