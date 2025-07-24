@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-bun run test
+bun lerna run test
 bun lint-staged
