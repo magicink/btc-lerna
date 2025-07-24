@@ -13,6 +13,9 @@
   },
   "license": "ISC",
   "author": "Brandon Tom <magicink@gmail.com>",
+  "exports": {
+    ".": "./jest.config.ts"
+  },
   "main": "jest.config.ts",
   "files": [
     "jest.config.ts"
@@ -30,6 +33,7 @@
     "jest-environment-jsdom": "^30.0.5"
   },
   "devDependencies": {
-    "@brandontom/typescript": "*"
+    "@brandontom/babel-preset": "workspace:*",
+    "@brandontom/typescript": "workspace:*"
   }
 }

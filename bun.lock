@@ -32,22 +32,22 @@
       "name": "@brandontom/babel-preset",
       "version": "2.0.2",
       "dependencies": {
-        "@babel/plugin-transform-runtime": "^7.19.6",
-        "@babel/preset-env": "^7.20.2",
-        "@babel/preset-react": "^7.18.6",
-        "@babel/preset-typescript": "^7.18.6",
+        "@babel/plugin-transform-runtime": "^7.28.0",
+        "@babel/preset-env": "^7.28.0",
+        "@babel/preset-react": "^7.27.1",
+        "@babel/preset-typescript": "^7.27.1",
         "babel-plugin-react-remove-properties": "^0.3.0",
-        "core-js": "^3.28.0",
-        "regenerator-runtime": "^0.13.11",
+        "core-js": "^3.44.0",
+        "regenerator-runtime": "^0.14.1",
       },
       "devDependencies": {
-        "@babel/cli": "^7.20.7",
-        "@babel/core": "^7.20.12",
+        "@babel/cli": "^7.28.0",
+        "@babel/core": "^7.28.0",
       },
     },
     "packages/btc-jest": {
       "name": "@brandontom/jest",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "dependencies": {
         "@testing-library/dom": "^10.4.0",
         "@testing-library/jest-dom": "^6.6.3",
@@ -57,6 +57,7 @@
         "jest-environment-jsdom": "^30.0.5",
       },
       "devDependencies": {
+        "@brandontom/babel-preset": "*",
         "@brandontom/typescript": "*",
       },
     },
@@ -1530,7 +1531,7 @@
 
     "regenerate-unicode-properties": ["regenerate-unicode-properties@10.2.0", "", { "dependencies": { "regenerate": "^1.4.2" } }, "sha512-DqHn3DwbmmPVzeKj9woBadqmXxLvQoQIwu7nopMc72ztvxVmVk2SBhSnx67zuye5TP+lJsb/TBQsjLKhnDf3MA=="],
 
-    "regenerator-runtime": ["regenerator-runtime@0.13.11", "", {}, "sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg=="],
+    "regenerator-runtime": ["regenerator-runtime@0.14.1", "", {}, "sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw=="],
 
     "regexpu-core": ["regexpu-core@6.2.0", "", { "dependencies": { "regenerate": "^1.4.2", "regenerate-unicode-properties": "^10.2.0", "regjsgen": "^0.8.0", "regjsparser": "^0.12.0", "unicode-match-property-ecmascript": "^2.0.0", "unicode-match-property-value-ecmascript": "^2.1.0" } }, "sha512-H66BPQMrv+V16t8xtmq+UC0CBpiTBA60V8ibS1QVReIp8T1z8hwFxqcGzm9K6lgsN7sB5edVH8a+ze6Fqm4weA=="],
 
