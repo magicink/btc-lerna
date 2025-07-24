@@ -54,6 +54,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm set registry https://registry.npmjs.org/
+          npm set scope @brandontom
           npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
 
       - name: Configure git for publish
@@ -67,10 +68,6 @@ jobs:
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           bump=$(bun x conventional-recommended-bump -p angular)
-          case "$bump" in
-            major|minor|patch) ;;
-            *) echo "Invalid bump '$bump'" && exit 1 ;;
-          esac
           echo "release=$bump" >> "$GITHUB_OUTPUT"
 
       - name: Publish packages
