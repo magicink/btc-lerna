@@ -23,5 +23,5 @@ jobs:
         run: bun run lerna run prepare
         shell: bash
       - name: test
-        run: bun test
+        run: bun x lerna run test
         shell: bash
