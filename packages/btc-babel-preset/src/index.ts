@@ -1,17 +1,17 @@
+import type { PluginItem, TransformOptions } from '@babel/core'
+
 /**
- * @type {Array<string>}
  * Array of Babel plugins to be used
  */
-const plugins = [
+const plugins: PluginItem[] = [
   '@babel/plugin-transform-modules-commonjs',
   '@babel/plugin-transform-runtime'
 ]
 
 /**
- * @type {Array<Array<string|Object>>}
  * Array of Babel presets to be used
  */
-const presets = [
+const presets: PluginItem[] = [
   [
     '@babel/preset-env',
     {
@@ -29,9 +29,11 @@ const presets = [
 ]
 
 /**
- * Export a function that returns the Babel configuration
- * @returns {{plugins: Array<string>, presets: Array<Array<string|Object>>}}
+ * Returns the Babel configuration
  */
-module.exports = () => {
+export default function babelPreset(): Pick<
+  TransformOptions,
+  'plugins' | 'presets'
+> {
   return { plugins, presets }
 }

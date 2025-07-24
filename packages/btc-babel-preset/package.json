@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "prebuild": "bun run rimraf dist",
-    "build": "bun run babel src --out-dir dist --extensions .js",
+    "build": "bun run tsc",
     "prepare": "bun run build"
   },
   "prettier": "@brandontom/prettier",
