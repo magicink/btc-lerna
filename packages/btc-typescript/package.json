@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/magicink/btc-lerna.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Brandon Tom <magicink@gmail.com>",
   "main": "tsconfig.json",
   "files": [
