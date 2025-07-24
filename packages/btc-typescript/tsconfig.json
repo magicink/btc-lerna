@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": ["node", "jest", "react", "react-dom"]
+    "types": ["bun", "jest", "react", "react-dom"]
   },
   "exclude": ["node_modules"]
 }

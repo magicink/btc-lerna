@@ -9,7 +9,6 @@
     ]
   },
   "scripts": {
-    "bump": "conventional-recommended-bump -p angular",
     "commitlint": "commitlint --edit",
     "prepare": "husky || true",
     "test": "lerna run test"
@@ -27,8 +26,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@types/bun": "^1.2.19",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.1.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "conventional-changelog-angular": "^7.0.0",
