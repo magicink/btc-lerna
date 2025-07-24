@@ -1,0 +1,83 @@
+name: publish
+on:
+  pull_request:
+    types: [closed]
+    branches: [develop]
+
+jobs:
+  publish:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: ${{ runner.os }}-bun-
+      - run: bun install
+
+      - name: Install jq
+        run: which jq || (sudo apt-get update && sudo apt-get install -y jq)
+
+      - name: Check for changed packages
+        id: changes
+        run: |
+          latest_tag=$(git describe --abbrev=0 --tags $(git rev-list --tags --max-count=1))
+          echo "Latest tag: $latest_tag"
+          changed=$(bun x lerna changed --json 2>error.log || true)
+          exit_code=$?
+          if [ $exit_code -eq 0 ]; then
+            echo "$changed"
+          elif grep -q "No changed packages found" error.log; then
+            echo "[]"
+            changed="[]"
+          else
+            echo "Error running 'lerna changed':"
+            cat error.log
+            exit 1
+          fi
+          has_changes=$(echo "$changed" | jq 'length > 0')
+          echo "has_changes=$has_changes" >> "$GITHUB_OUTPUT"
+
+      - name: Clean branch with hard reset
+        run: |
+          git fetch origin
+          git reset --hard origin/develop
+          echo "Performed hard reset to ensure clean branch state"
+
+      - name: Configure npm for publish
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm set registry https://registry.npmjs.org/
+          npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
+
+      - name: Configure git for publish
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Determine semver bump
+        id: bump
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          bump=$(bun x conventional-recommended-bump -p angular)
+          echo "release=$bump" >> "$GITHUB_OUTPUT"
+
+      - name: Publish packages
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: bun x lerna publish ${{ steps.bump.outputs.release }} --yes --no-private --loglevel info
+
+      - name: Push git tags
+        if: steps.changes.outputs.has_changes == 'true'
+        run: git push --follow-tags origin HEAD:${{ github.ref_name }}
